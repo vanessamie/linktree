@@ -1,0 +1,95 @@
+@import url(../assets/css/imagem.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/*----- RESET -----*/
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 62.5%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(120deg, #bd0a96, #0a898d);
+}
+
+.container {
+    font-size: 2rem;
+    font-weight: 700;
+    height: 100vh;
+    margin-inline: auto;
+    margin-top: 5rem;
+    text-align: center;
+    width: 30rem;
+}
+
+h1 {
+    margin: 2rem 0 1rem;
+    font-size: 2.5rem;
+    color: #fa0456;
+    opacity: 0.8;
+}
+
+p {
+    color: #410317;
+    
+}
+
+ul {
+    margin: 4rem 0;
+}
+
+ul li a {
+    align-items: center;
+    animation: gradientEffect 2s linear infinite;
+    background-image: linear-gradient(to right, #ff34d2,#cc20a7, #8739b4, #5b9dff, #0a898d, #7530e4, #ec41c7);
+    background-size: 200% 200%;
+    border-radius: 6px;
+    color: #E5E5E5;
+    display: flex;
+    font-size: 2rem;
+    height: 5.3rem;
+    justify-content: space-evenly;
+    margin-bottom: 1.6rem;
+    transition: background 400ms;
+    width: 100%;
+    filter: brightness(0.8)
+}
+
+ul li a:hover {
+    transform: scale(1.1);
+    filter: brightness(1.3);
+}
+
+@keyframes gradientEffect {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 100%;
+    }
+}
+
+ul li a i {
+    font-size: 3rem;
+}
+/*
+            
+            <footer class="rodape">
+                <p>
+                Desenvolvido por &copy;Vanessa Mie Nishida - 2022
+                </p>
+            </footer>
+
+.rodape {
+    color: #720529;
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    bottom: 0;
+}
+*/
