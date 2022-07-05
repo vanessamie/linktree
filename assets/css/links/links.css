@@ -1,0 +1,44 @@
+/*----- LINKS -----*/
+.container__lista {
+    margin: 5rem 0;
+}
+
+.container__link {
+    align-items: center;
+    animation: gradientEffect 4s linear infinite alternate;
+    background-image: linear-gradient(to bottom right, #4affde 0%, #5b9dff 40%, #9f6bff 60%, #ff34d2 100%);
+
+    background-size: 200% 200%;
+    border-radius: 6px;
+    color: #E5E5E5;
+
+    display: flex;
+    filter: brightness(0.8);
+    font-size: 2rem;
+
+    gap: 2rem;
+    height: 6rem;
+    justify-content: center;
+
+    margin-bottom: 2rem;
+    transition: background 400ms;
+    width: 100%;
+}
+
+.container__link:hover {
+    filter: brightness(1.3);
+    transform: scale(1.1);
+}
+
+@keyframes gradientEffect {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 100%;
+    }
+}
+
+.container__link .fa-brands {
+    font-size: 3rem;
+}
