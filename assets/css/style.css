@@ -1,4 +1,4 @@
-@import url(../assets/css/imagem.css);
+@import url(../css/imagem.css);
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 /*----- RESET -----*/
@@ -30,7 +30,7 @@ h1 {
     margin: 2rem 0 1rem;
     font-size: 2.5rem;
     color: #fa0456;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 p {
@@ -44,8 +44,8 @@ ul {
 
 ul li a {
     align-items: center;
-    animation: gradientEffect 2s linear infinite;
-    background-image: linear-gradient(to right, #ff34d2,#cc20a7, #8739b4, #5b9dff, #0a898d, #7530e4, #ec41c7);
+    animation: gradientEffect 4s linear infinite alternate;
+    background-image: linear-gradient(to bottom right, #4affde 0%, #5b9dff 40%, #9f6bff 60%, #ff34d2 100%);
     background-size: 200% 200%;
     border-radius: 6px;
     color: #E5E5E5;
