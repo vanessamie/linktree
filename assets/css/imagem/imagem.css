@@ -8,13 +8,13 @@
 
 .container__imagem::before {
     animation: spinner 5s linear infinite;
-
     border: 4px solid transparent;
     border-bottom-color: #fa0456;
+
     border-radius: 50%;
     border-top-color: #4affde;
-
     content: '';
+    
     inset: -1rem;
     position: absolute;
     z-index: -1;

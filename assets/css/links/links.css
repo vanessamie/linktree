@@ -8,6 +8,7 @@
     align-items: center;
     animation: gradientEffect 4s linear infinite alternate;
     background-image: var(--box-link);
+    
     background-size: 200% 200%;
     border-radius: 6px;
     color: var(--link);
