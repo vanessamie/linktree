@@ -3,7 +3,7 @@
 .container__imagem {
     max-width: 10rem;
     position: relative;
-    margin-inline: auto;
+    margin: 2rem auto 0;
 }
 
 .container__imagem::before {

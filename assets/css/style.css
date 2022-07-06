@@ -17,31 +17,53 @@
 }
 
 /*----- BASE -----*/
+:root {
+    --background: linear-gradient(120deg, #bd0a96, #0a898d);
+    --color: #24020d;
+    --link: #E5E5E5;
+    --box-link: linear-gradient(to bottom right, #4affde 0%, #5b9dff 40%, #9f6bff 60%, #ff34d2 100%);
+
+    /*dark*/
+    --background-dark: linear-gradient(120deg, #1a0114, #023638);
+}
 
 body {
-    background: linear-gradient(120deg, #bd0a96, #0a898d);
+    background: var(--background);
+    height: 100vh;
+}
+
+.dark {
+    background: var(--background-dark);
+    color: var(--link);
 }
 
 .container {
     font-size: 2rem;
     font-weight: 700;
-    height: 100vh;
+    height: 80vh;
 
     margin-inline: auto;
     margin-top: 5rem;
+    padding-inline: 1rem;
 
     text-align: center;
-    width: 30rem;
+    width: 35rem;
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6.5px );
+    -webkit-backdrop-filter: blur( 6.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 /*----- FOOTER -----*/
 .rodape {
-    color: #24020d;
+    color: var(--color);
     display: block;
 
     font-size: 2rem;
     font-weight:bold;
     
-    margin: 12rem 0 0;
+    margin: 10rem 0 0;
     text-align: center;
 }

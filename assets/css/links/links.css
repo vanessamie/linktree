@@ -3,14 +3,14 @@
     margin: 5rem 0;
 }
 
+.dark,
 .container__link {
     align-items: center;
     animation: gradientEffect 4s linear infinite alternate;
-    background-image: linear-gradient(to bottom right, #4affde 0%, #5b9dff 40%, #9f6bff 60%, #ff34d2 100%);
-
+    background-image: var(--box-link);
     background-size: 200% 200%;
     border-radius: 6px;
-    color: #E5E5E5;
+    color: var(--link);
 
     display: flex;
     filter: brightness(0.8);
@@ -23,6 +23,7 @@
     margin-bottom: 2rem;
     transition: background 400ms;
     width: 100%;
+    
 }
 
 .container__link:hover {
